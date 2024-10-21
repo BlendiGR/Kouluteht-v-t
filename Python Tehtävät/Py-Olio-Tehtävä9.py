@@ -77,8 +77,11 @@ while kilpailu:
             kilpailu = False
             break
     
-print("Kisa loppu")
-
+kisa_autot.sort(key=lambda auto: auto.kuljettu_matka, reverse = True) # ------ OLEN KATSONUT TÄMÄN NETISTÄ! -------
+sija = 0
 for kisa_auto in kisa_autot:
-    print(f"Auton rekkari {kisa_auto.rekisteritunnus}, kuljettu matka {kisa_auto.kuljettumatka} km!")
+    sija +=1
+    print(f"{sija}. Auton rekkari {kisa_auto.rekisteritunnus}, kuljettu matka {kisa_auto.kuljettu_matka} km!")
+
+print("Kisa loppu")
 
