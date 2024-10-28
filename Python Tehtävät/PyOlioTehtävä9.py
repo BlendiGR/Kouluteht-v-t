@@ -76,7 +76,7 @@ while kilpailu:
         if kisa_auto.kuljettu_matka >= 10000:
             kilpailu = False
             break
-    
+
 kisa_autot.sort(key=lambda auto: auto.kuljettu_matka, reverse = True) # ------ OLEN KATSONUT TÄMÄN NETISTÄ! -------
 sija = 0
 for kisa_auto in kisa_autot:
