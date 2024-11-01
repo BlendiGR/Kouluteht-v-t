@@ -11,28 +11,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class = "titteli">
-        <h1> Grajqevci Oy</h1>
-        <div class = "toolbar">
-            <div class = "homebutton"> <a href="./index.html"> Home </a> </div>
-            <div class = "productsbutton"> <a href="./products.html"> Products </a> </div>
-            <div class = "contactbutton"> <a href="contact.html"> Contact </a> </div>
-        </div>
+
+    <!-- Nav -->
+    <div class="navBar">
+      <h1>GRAJQEVCI OY</h1>
+      <ul>
+        <li><a href="#homeSection">HOME</a></li>
+        <li><a href="#productsSection">SERVICES</a></li>
+        <li><a href="#contactSection">CONTACT</a></li>
+      </ul>
     </div>
-    <div class="kontenttiboksi">
-      <h1>Kokonaisvaltaista <br> kiinteistöpalvelua</h1>
-      <hr>
-      <div class="kuvakontentti">
-          <img src="content/newyork.jpg" alt="Picture of New York's skyline">
-          <div class="kuva-teksti">
-              <h2>Yrityksemme</h2>
-              <p>
-                Tarjoamme kattavat ja räätälöidyt ratkaisut kiinteistöjen hallintaan ja ylläpitoon. Palvelumme kattaa kaiken 
-                aina kiinteistönhoidosta energiansäästöratkaisuihin sekä tilojen modernisointiin. Olemme luotettava kumppani, joka huolehtii
-                kiinteistöstäsi, jotta sinä voit keskittyä liiketoimintaasi
-              </p>
-          </div>
+  
+    <!-- Home Section -->
+    <div class="homeSection" id="homeSection">
+      <div class="homeSectionStuff">
+        <div class="esittely">
+          <h1>GRAJQEVCI OY</h1>
+          <h3>SINCE 1990</h3>
+          <hr>
+        </div>
+        <img id="Hienostelukuva" src="./content/Kuva.png" alt="Picture of a skyscraper being built">
+        <hr>
+        <p>
+          At Grajqevci Oy, we specialize in bringing architectural visions to life with precision, dedication, and a commitment to excellence.  
+          From commercial skyscrapers to residential complexes, our team of skilled professionals ensures each project meets the highest standards 
+          of quality and safety. With decades of experience in construction and engineering, we prioritize sustainable building practices and innovative 
+          solutions that respect both our clients' needs and the environment. Our mission is to create structures that stand the test of time, making a positive
+          impact on communities and shaping the skylines of tomorrow.
+        </p>
       </div>
     </div>
+  
+    <!-- Products Section -->
+    <div class="productsSection" id="productsSection">
+      <div class = "gridContainer">
+        <h2>Our Services</h2>
+        <div class = "serviceOne">
+          <h1>Custom Building and Construction</h1>
+          <img src ="./content/custombuilding.png" alt ="A picture of a building under construction">
+          <p>From residential homes to commercial complexes, we bring your vision to life with precision and expertise.</p>
+        </div>
+        <div class = "serviceTwo">
+          <h1>Project Management and Consulting</h1>
+          <img src ="content/consulting.png" alt ="A board with checklist">
+          <p>We manage every detail of your project, from initial planning to final execution, ensuring it stays on schedule and within budget.</p>
+        </div>
+        <div class = "serviceThree"> 
+        <h1>Renovation and Restoration</h1>
+        <img src="./content/Renovation.png" alt = "Picture of building under construction">
+        <p>Whether it’s modernizing a space or restoring historical integrity, our team delivers high-quality renovations tailored to your needs.</p>
+        </div>
+      
+      </div>
+    </div>
+  
+    <!-- Contact Section -->
+    <div class="contactSection" id="contactSection">
+      <h2>Contact Us</h2>
+      <p></p>
+    </div>
+  
   </body>
-</html>
+  </html>
