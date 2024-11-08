@@ -59,9 +59,7 @@ body {
 .homeSection {
     display: flex;
     justify-content: center;
-    background-image: url(./content/Taustakuvat.png);
-    background-size: cover;
-    background-position: center;
+    background-color: #393E46;
     margin-left: 55px;
     margin-right: 55px;
     border-bottom-left-radius: 15px;
@@ -128,9 +126,7 @@ body {
     margin-right: 55px;
 }
 .productsSection {
-    background-image: url('./content/Taustakuvat.png');
-    background-size: cover;
-    background-position: center;
+    background-color: #393E46;
     margin-top: 100px;
     margin-left: 55px;
     margin-right: 55px;
@@ -187,9 +183,7 @@ body {
 .contactSection {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url('./content/Taustakuvat.png');
-    background-size: cover;
-    background-position: center;
+    background-color: #393E46;
     margin-top: 100px;   
     margin-left: 55px;
     margin-right: 55px;
