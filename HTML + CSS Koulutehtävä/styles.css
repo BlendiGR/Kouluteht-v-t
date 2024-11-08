@@ -24,7 +24,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    color: #EEEEEE;
+    color: white;
     font-size: 40px;
   }
   
@@ -92,7 +92,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    color: #EEEEEE;
+    color: white;
     font-size: 100px;
 }
 .esittely h3 {
@@ -100,7 +100,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    color: #EEEEEE;
+    color: white;
     font-size: 30px;
     letter-spacing: 20px;
 }
@@ -109,7 +109,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    color: #EEEEEE;
+    color: white;
     font-size: 40px;
     margin-left: 50px;
     margin-right: 50px;
@@ -118,7 +118,7 @@ body {
     height: 1px;
     width: 80%;
     border: none;
-    background-color: #EEEEEE;
+    background-color: white;
 }
 .gridContainer {
     display: grid;
@@ -144,7 +144,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    color: #EEEEEE;
+    color: white;
     font-size: 100px;
     letter-spacing: 10px
 }
@@ -169,7 +169,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #EEEEEE;
+    background-color: white;
     text-align: center;
     padding: 20px;
     margin-top: 100px;
@@ -206,7 +206,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    color: #EEEEEE;
+    color: white;
     font-size: 100px;
     letter-spacing: 10px;
     margin-top: 100px;
@@ -216,7 +216,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    color: #EEEEEE;
+    color: white;
     font-size: 40px;
     margin-left: 50px;
     margin-top: 200px;
