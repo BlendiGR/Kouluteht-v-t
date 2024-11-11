@@ -171,3 +171,30 @@ const Tehtävä9 = () => {
 
 buttoni("Yhdeksän", Tehtävä9);
 
+const Tehtävä10 = () => {
+    const dice = parseInt(prompt("How many dices to roll?"));
+    const bet = parseInt(prompt("What do you think the result of rolls will be?"));
+    const result = [];
+    const goodBets = [];
+    for (let i = 0; i < 10000; i++){
+        const väliaika = []
+        for (let i = 0; i < dice; i++){
+            const rollDice = Math.floor(Math.random() * 6) + 1;
+            väliaika.push(rollDice);
+        }
+        let sum = 0;
+        for (let i = 0; i < väliaika.length; i++) {
+            sum += väliaika[i]
+        }
+        result.push(sum)
+    }
+    for (let i = 0; i < result.length; i++){
+        if (result[i] === bet){
+            goodBets.push(result[i]);
+        }
+    };
+    const finaali = (goodBets.length / result.length) * 100;
+    document.querySelector(".T10").innerHTML = `The chance to get the dice results are ${finaali.toFixed(1)}% !`
+};
+
+buttoni("Kymmenen", Tehtävä10);
