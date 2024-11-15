@@ -178,6 +178,8 @@ const Tehtävä9 = () => {
 
 buttoni("Yhdeksän", Tehtävä9)
 
+//TEHTÄVÄ 10
+
 const Tehtävä10 = () => {
     const candidates = [];
     const askForCandidates = parseInt(prompt("How many candidates?"));
